@@ -258,6 +258,7 @@ body {
 }
 
 nav {
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -303,5 +304,27 @@ nav {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-left: 33%;
+  padding-right: 40px;
+}
+
+.nav-links li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 5rem;
+  color: #606060;
+}
+
+.nav-links li:active, .nav-links li:hover {
+  color: #F5F5F5;
+  cursor: pointer;
+}
+
+.nav-links .fa-chevron-down {
+  padding: 5px;
+  font-size: 1.4rem;
+  line-height: 5rem;
+  color: #606060;
 }
 /*# sourceMappingURL=styles.css.map */

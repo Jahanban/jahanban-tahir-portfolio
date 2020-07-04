@@ -1,6 +1,7 @@
 // Styling Nav
 
 nav {
+    max-width: 100%;
     display: flex;
 }
 
@@ -46,5 +47,28 @@ nav {
     display: flex;
     justify-content: space-around;
     // align-items: flex-end;
+    margin-left: 33%;
+    padding-right: 40px;
+
+    li {
+        list-style: none;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 5rem;
+        color:$quinary-color;
+
+        &:active,
+        &:hover {
+            color: $tertiary-color;
+            cursor: pointer;
+        }
+    }
+
+    .fa-chevron-down {
+        padding: 5px;
+        font-size: 1.4rem;
+        line-height: 5rem;
+        color:$quinary-color;
+    }
 }
 
