@@ -1,0 +1,13 @@
+// Styline profile summary
+
+.profile {
+    max-width: 50%;
+    display: flex;
+
+    img {
+        width: 40%;
+        border-radius: 50%;
+        border: 10px solid $quinary-color;
+    }
+    
+}
