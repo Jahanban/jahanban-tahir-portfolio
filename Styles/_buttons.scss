@@ -1,0 +1,34 @@
+// Styling button
+
+.btn-one,
+.btn-two {
+    width: 150px;
+    padding: 10px 20px;
+    background-color: $secondary-color;
+    color: $tertiary-color;
+    display: inline-block;
+    border-radius: 29px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.btn-one {
+    border: 2px solid $quaternary-color;
+
+    &:hover {
+        background-color: $quaternary-color;
+        cursor: pointer;
+    }
+}
+
+.btn-two {
+    border: 2px solid $tertiary-color;
+
+     &:hover {
+        background-color: $tertiary-color;
+        color: $primary-color;
+        cursor: pointer;
+    }
+}
