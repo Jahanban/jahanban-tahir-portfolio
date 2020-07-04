@@ -331,7 +331,7 @@ nav {
 }
 
 .profile {
-  max-width: 70%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -355,5 +355,17 @@ nav {
   font-size: 4.8rem;
   font-weight: 600;
   line-height: 5.6rem;
+}
+
+.profile .profile-summary p:nth-child(1) {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.profile .profile-summary p:nth-child(3) {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
 }
 /*# sourceMappingURL=styles.css.map */
