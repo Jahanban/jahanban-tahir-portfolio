@@ -428,4 +428,27 @@ nav {
   bottom: -2px;
   left: 0;
 }
+
+.icons {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.icons li h4 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.icon-fa {
+  font-size: 10rem;
+  margin: 20px 80px;
+}
 /*# sourceMappingURL=styles.css.map */

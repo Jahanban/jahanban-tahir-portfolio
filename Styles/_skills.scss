@@ -21,23 +21,22 @@
     }
 }
 
-// .skills ul {
-//     display: flex;
-//     list-style: none;
-//     position: absolute;
-//     top: 120%;
-// left: 14.8%;
+.icons {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 auto;
 
-//     li:nth-child(1) {
-//         width: 60px;
-//         height: 2px;
-//         background-color: $quaternary-color;
-//     }
+       li h4 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
 
-//      li:nth-child(2) {
-//         width: 100px;
-//         height: 2px;
-//         background-color: $secondary-color;
-//         // background-color: red;
-//     }
-// }
+.icon-fa {
+    font-size: 10rem; 
+    margin: 20px 80px;
+}
+
