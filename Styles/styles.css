@@ -445,10 +445,24 @@ nav {
 .icons li h4 {
   font-size: 2rem;
   text-align: center;
+  font-weight: 400;
 }
 
 .icon-fa {
   font-size: 10rem;
   margin: 20px 80px;
+}
+
+.icon-two {
+  width: 80px;
+  height: 80px;
+}
+
+.icons li:nth-child(9) {
+  margin-top: 2%;
+}
+
+.icons li:nth-child(11) {
+  margin-left: 22px;
 }
 /*# sourceMappingURL=styles.css.map */
