@@ -72,5 +72,8 @@ nav {
         line-height: 5rem;
         color:$quinary-color;
     }
+    &:hover {
+        color: $tertiary-color;
+    }
 }
 

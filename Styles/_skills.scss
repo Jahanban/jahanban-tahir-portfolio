@@ -1,0 +1,43 @@
+// Styling skills and tools
+
+.skills h4 {
+    width: 12.8%;
+    padding-bottom: 5px;
+    color: $tertiary-color;
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    position: relative;
+    border-bottom: 2px solid $secondary-color;
+
+    &:after {
+        position: absolute;
+        background-color: $quaternary-color;
+        height: 2px;
+        content: " ";
+        width: 50px;
+        bottom: -2px;
+        left: 0;
+    }
+}
+
+// .skills ul {
+//     display: flex;
+//     list-style: none;
+//     position: absolute;
+//     top: 120%;
+// left: 14.8%;
+
+//     li:nth-child(1) {
+//         width: 60px;
+//         height: 2px;
+//         background-color: $quaternary-color;
+//     }
+
+//      li:nth-child(2) {
+//         width: 100px;
+//         height: 2px;
+//         background-color: $secondary-color;
+//         // background-color: red;
+//     }
+// }
