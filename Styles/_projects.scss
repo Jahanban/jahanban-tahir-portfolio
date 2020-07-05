@@ -1,0 +1,249 @@
+// Styling projects 
+
+.projects {
+    margin-bottom: 200px;
+    // width: 70%
+    // padding: 20%;
+}
+
+.proj-desc h4 {
+    width: 7%;
+    padding-bottom: 5px;
+    color: $tertiary-color;
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    position: relative;
+    border-bottom: 2px solid $secondary-color;
+
+    &:after {
+        position: absolute;
+        background-color: $quaternary-color;
+        height: 2px;
+        content: " ";
+        width: 30px;
+        bottom: -2px;
+        left: 0;
+    }
+}
+
+.projects-container-one,
+.projects-container-two {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+//Project Three
+
+.proj-three {
+   display: flex;
+   width: 40%;
+    .proj-three-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 10;
+        // top: 100%;
+        
+    }
+
+    .proj-three-summary {
+        width: 40%;
+        background-color: $senary-collor;
+        padding: 5px 10px 5px 100px;
+        border: 2px solid $quinary-color;
+        border-radius: 10px;
+        margin-top: 30px;
+        position: absolute;
+        z-index: 1;
+        left: 12%;
+
+
+        & p {
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 2.5rem;
+        }
+
+        & h4 {
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.3rem;
+            margin-bottom: 5px;
+            // margin-top: 10px;
+        }
+    }
+}
+
+//Project Four
+
+.proj-four {
+   display: flex;
+   width: 40%;
+//    margin-top: 200px;
+ .proj-four-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 10;
+        // right: 98%;
+    }
+
+    .proj-four-summary {
+        width: 40%;
+        background-color: $senary-collor;
+        padding: 5px 10px 5px 100px;
+        border: 2px solid $quinary-color;
+        border-radius: 10px;
+        margin-top: 30px;
+        position: absolute;
+        z-index: 1;
+        left: 55%;
+
+
+        & p {
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 2.5rem;
+        }
+
+        & h4 {
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.3rem;
+            margin-bottom: 5px;
+            // margin-top: 10px;
+        }
+    }
+}
+
+// .proj-four-container {
+//    display: flex;
+//     .proj-four-img {
+//         width: 100px;
+//         height: 100px;
+//         border-radius: 50%;
+//         position: relative;
+//         z-index: 10;
+//         left: 500px;
+        
+//     }
+
+//     .proj-four-summary {
+//         width: 45%;
+//         background-color: $senary-collor;
+//         padding: 5px 10px 5px 100px;
+//         border: 2px solid $quinary-color;
+//         border-radius: 10px;
+//         margin-top: 30px;
+//         position: absolute;
+//         z-index: 1;
+//         left: 52%;
+
+
+//         & p {
+//             font-weight: 400;
+//             font-size: 1.4rem;
+//             line-height: 2.5rem;
+//         }
+
+//         & h4 {
+//             font-weight: 400;
+//             font-size: 2rem;
+//             line-height: 2.3rem;
+//             margin-bottom: 5px;
+//         }
+//     }
+// }
+
+//Project Five
+
+.proj-five {
+   display: flex;
+   width: 40%;
+   margin-top: 200px;
+ .proj-five-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 10;
+        // right: 22%;
+        
+    }
+
+    .proj-five-summary {
+        width: 40%;
+        background-color: $senary-collor;
+        padding: 5px 10px 5px 100px;
+        border: 2px solid $quinary-color;
+        border-radius: 10px;
+        margin-top: 30px;
+        position: absolute;
+        z-index: 1;
+        left: 12%;
+
+
+        & p {
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 2.5rem;
+        }
+
+        & h4 {
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.3rem;
+            margin-bottom: 5px;
+            // margin-top: 10px;
+        }
+    }
+}
+
+//Project Six
+
+.proj-six {
+   display: flex;
+   width: 40%;
+   margin-top: 200px;
+ .proj-six-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 10;
+        // right: 22%;
+        
+    }
+
+    .proj-six-summary {
+         width: 40%;
+        background-color: $senary-collor;
+        padding: 5px 10px 5px 100px;
+        border: 2px solid $quinary-color;
+        border-radius: 10px;
+        margin-top: 30px;
+        position: absolute;
+        z-index: 1;
+        left: 55%;
+
+
+        & p {
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 2.5rem;
+        }
+
+        & h4 {
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.3rem;
+            margin-bottom: 5px;
+            // margin-top: 10px;
+        }
+    }
+}
+
