@@ -1,0 +1,23 @@
+// Styling Contact form
+
+
+.contact-form h4 {
+    width: 7.5%;
+    padding-bottom: 5px;
+    color: $tertiary-color;
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    position: relative;
+    border-bottom: 2px solid $secondary-color;
+
+    &:after {
+        position: absolute;
+        background-color: $quaternary-color;
+        height: 2px;
+        content: " ";
+        width: 35px;
+        bottom: -2px;
+        left: 0;
+    }
+}
