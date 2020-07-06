@@ -1,8 +1,14 @@
 // Styling Contact form
 
+.contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
 
-.contact-form h4 {
-    width: 7.5%;
+
+.contact h4 {
+    width: 15%;
     padding-bottom: 5px;
     color: $tertiary-color;
     font-weight: 600;
@@ -21,3 +27,11 @@
         left: 0;
     }
 }
+
+.contact form label,
+.contact form input {
+    width: 80%;
+    margin: 0 auto;
+     margin-bottom: 20px;
+}
+
