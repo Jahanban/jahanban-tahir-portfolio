@@ -385,7 +385,7 @@ nav {
   display: inline-block;
   border-radius: 29px;
   margin-right: 10px;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.4rem;
   line-height: 1.7rem;
 }
@@ -722,7 +722,7 @@ nav {
 }
 
 .contact {
-  width: 50%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -753,11 +753,37 @@ nav {
   left: 0;
 }
 
-.contact form label,
-.contact form input {
-  width: 80%;
+.contact form {
   margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 80%;
   margin-bottom: 20px;
+  height: 50px;
+  background-color: #222222;
+  border: 2px solid #606060;
+  border-radius: 5px;
+  padding: 4px 10px;
+  color: #F5F5F5;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+.contact form textarea {
+  height: 100px;
+  padding-top: 10px;
+  resize: none;
+}
+
+.contact form input[type=submit] {
+  width: 30%;
+  margin-left: 23.5%;
+  border: 2px solid #007CED;
+  border-radius: 29px;
+  font-weight: 600;
 }
 
 footer {
