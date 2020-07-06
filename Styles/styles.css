@@ -691,12 +691,34 @@ nav {
   left: 0;
 }
 
-.medium-widget-article__description {
-  color: white;
+.medium-widget .medium-widget-article__title {
+  color: #F5F5F5;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  font-weight: 600;
 }
 
-.medium-widget-article__title {
-  color: white;
+.medium-widget .medium-widget-article__title:hover {
+  color: #007CED;
+}
+
+.medium-widget .medium-widget-article__description {
+  color: #F5F5F5;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+.medium-widget .medium-widget-article__date {
+  color: #F5F5F5;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  font-weight: 300;
+}
+
+.medium-widget .medium-widget-article__author-name,
+.medium-widget .medium-widget-article__avatar-picture {
+  display: none;
 }
 
 .contact {

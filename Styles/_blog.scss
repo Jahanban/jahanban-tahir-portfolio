@@ -26,12 +26,38 @@
     }
 }
 
+.medium-widget{
 
+    .medium-widget-article__title {
+    color: $tertiary-color;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    font-weight: 600;
+
+    &:hover {
+        color: $quaternary-color;
+    }
+}
 
 .medium-widget-article__description {
-    color: white;
+    color: $tertiary-color;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    font-weight: 400;
 }
 
-.medium-widget-article__title {
-    color: white;
-}
+   .medium-widget-article__date {
+color: $tertiary-color;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    font-weight: 300;
+    }
+
+    
+   .medium-widget-article__author-name,
+   .medium-widget-article__avatar-picture{
+       display: none;
+   }
+
+} 
+
