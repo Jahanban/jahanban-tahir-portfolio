@@ -5,16 +5,46 @@ footer {
     // border-top: 5px solid white;
     margin-bottom: 0;
     margin-top: 100px;
+    padding-bottom: 10px;
      background-color: $senary-color;
     // background: red;
 }
 
-footer p {
-    // width: 50%;
-    font-weight: 300;
-    font-size: 1.2rem;
-    line-height: 2.5rem;
-    padding: 2px;
-    margin-bottom: 0;
-    margin-left: 80%;
+.social {
+    display: flex;
 }
+
+.social Ul {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+
+        li {
+        // width: 50%;
+        font-weight: 300;
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+        padding: 2px;
+        margin-bottom: 0;
+
+        &:hover {
+            color: $quaternary-color;
+        }
+    }
+
+}
+
+.social p {
+    margin-top: 10px;
+    padding-top: 19px;
+    margin-left: 50%;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    // text-align: center;
+}
+
