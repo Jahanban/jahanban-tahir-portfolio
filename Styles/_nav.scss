@@ -55,6 +55,9 @@ nav {
 
     li {
         list-style: none;
+
+        a {
+        text-decoration: none;
         font-weight: 400;
         font-size: 1.4rem;
         line-height: 5rem;
@@ -65,8 +68,12 @@ nav {
             color: $tertiary-color;
             cursor: pointer;
         }
+
     }
 
+    }
+
+    
     .fa-chevron-down {
         padding: 5px;
         font-size: 1.4rem;
@@ -77,4 +84,5 @@ nav {
         color: $tertiary-color;
     }
 }
+
 

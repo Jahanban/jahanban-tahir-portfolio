@@ -1,9 +1,12 @@
 // Styling button
 
+
+
 .btn-one,
 .btn-two {
     width: 150px;
     padding: 10px 20px;
+    text-align: center;
     background-color: $secondary-color;
     color: $tertiary-color;
     display: inline-block;
@@ -31,4 +34,9 @@
         color: $primary-color;
         cursor: pointer;
     }
+}
+
+.btn-cv,
+.btn-two {
+    text-decoration: none;
 }

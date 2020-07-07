@@ -313,13 +313,17 @@ nav {
 
 .nav-links li {
   list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 5rem;
   color: #606060;
 }
 
-.nav-links li:active, .nav-links li:hover {
+.nav-links li a:active, .nav-links li a:hover {
   color: #F5F5F5;
   cursor: pointer;
 }
@@ -380,6 +384,7 @@ nav {
 .btn-two {
   width: 150px;
   padding: 10px 20px;
+  text-align: center;
   background-color: #444444;
   color: #F5F5F5;
   display: inline-block;
@@ -407,6 +412,11 @@ nav {
   background-color: #F5F5F5;
   color: #222222;
   cursor: pointer;
+}
+
+.btn-cv,
+.btn-two {
+  text-decoration: none;
 }
 
 .skills h4 {
@@ -816,16 +826,19 @@ footer {
   padding-top: 10px;
 }
 
-.social Ul li {
+.social Ul li a {
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 2.1rem;
   padding: 2px;
   margin-bottom: 0;
+  text-decoration: none;
+  color: #F5F5F5;
 }
 
-.social Ul li:hover {
+.social Ul li a:hover {
   color: #007CED;
+  cursor: pointer;
 }
 
 .social p {

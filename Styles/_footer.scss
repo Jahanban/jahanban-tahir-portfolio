@@ -23,16 +23,19 @@ footer {
     align-items: center;
     padding-top: 10px;
 
-        li {
+        li a {
         // width: 50%;
         font-weight: 300;
         font-size: 1.3rem;
         line-height: 2.1rem;
         padding: 2px;
         margin-bottom: 0;
+        text-decoration: none;
+        color: $tertiary-color;
 
         &:hover {
             color: $quaternary-color;
+            cursor: pointer;
         }
     }
 
@@ -47,4 +50,9 @@ footer {
     line-height: 2.1rem;
     // text-align: center;
 }
+
+// .social ul a {
+//     text-decoration: none;
+//     color: red;
+// }
 
