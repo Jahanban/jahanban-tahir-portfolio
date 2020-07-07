@@ -4,12 +4,14 @@
     width: 85%;
     display: flex;
     margin: 10% auto;
+    padding-top: 10%;
     justify-content: space-between;
 
     img {
         width: 100%;
         border-radius: 50%;
         border: 10px solid $secondary-color;
+        box-shadow: 5px 10px 10px 1px $septenary-color;
     }
 
     .profile-summary {

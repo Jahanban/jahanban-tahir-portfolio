@@ -1,8 +1,12 @@
 // Styling Nav
 
 nav {
-    max-width: 100%;
+    width: 100%;
     display: flex;
+    position: fixed;
+    top: 0;
+    background-color: $primary-color;
+    z-index: 100;
 }
 
 // Styling logo
@@ -45,13 +49,13 @@ nav {
 //Styling nav links
 
 .nav-links {
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     // align-items: flex-end;
     margin-top: 0;
-    margin-left: 33%;
-    padding-right: 40px;
+    margin-left: 23%;
+    padding-right: 80px;
 
     li {
         list-style: none;
@@ -63,12 +67,14 @@ nav {
         line-height: 5rem;
         color:$quinary-color;
 
-        &:active,
-        &:hover {
+        &:hover{
             color: $tertiary-color;
             cursor: pointer;
         }
 
+        // &:active {
+        //     color: red;
+        // }
     }
 
     }
@@ -80,9 +86,10 @@ nav {
         line-height: 5rem;
         color:$quinary-color;
     }
-    &:hover {
-        color: $tertiary-color;
-    }
+    // &:hover {
+    //     color: $tertiary-color;
+    // }
 }
+
 
 

@@ -258,10 +258,14 @@ body {
 }
 
 nav {
-  max-width: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: fixed;
+  top: 0;
+  background-color: #222222;
+  z-index: 100;
 }
 
 .logo {
@@ -300,15 +304,15 @@ nav {
 }
 
 .nav-links {
-  width: 50%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: 0;
-  margin-left: 33%;
-  padding-right: 40px;
+  margin-left: 23%;
+  padding-right: 80px;
 }
 
 .nav-links li {
@@ -323,7 +327,7 @@ nav {
   color: #606060;
 }
 
-.nav-links li a:active, .nav-links li a:hover {
+.nav-links li a:hover {
   color: #F5F5F5;
   cursor: pointer;
 }
@@ -335,16 +339,13 @@ nav {
   color: #606060;
 }
 
-.nav-links:hover {
-  color: #F5F5F5;
-}
-
 .profile {
   width: 85%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 10% auto;
+  padding-top: 10%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -354,6 +355,8 @@ nav {
   width: 100%;
   border-radius: 50%;
   border: 10px solid #444444;
+  -webkit-box-shadow: 5px 10px 10px 1px #181818;
+          box-shadow: 5px 10px 10px 1px #181818;
 }
 
 .profile .profile-summary {
@@ -415,7 +418,8 @@ nav {
 }
 
 .btn-cv,
-.btn-two {
+.btn-two,
+.back-to-top {
   text-decoration: none;
 }
 
