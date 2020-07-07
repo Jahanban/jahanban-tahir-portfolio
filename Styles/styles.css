@@ -540,6 +540,10 @@ nav {
   left: 12%;
 }
 
+.proj-three .proj-three-summary a {
+  text-decoration: none;
+}
+
 .proj-three .proj-three-summary p {
   font-weight: 400;
   font-size: 1.4rem;
@@ -551,6 +555,11 @@ nav {
   font-size: 2rem;
   line-height: 2.3rem;
   margin-bottom: 5px;
+  color: #F5F5F5;
+}
+
+.proj-three .proj-three-summary h4:hover {
+  color: #007CED;
 }
 
 .proj-four {
@@ -580,6 +589,10 @@ nav {
   left: 55%;
 }
 
+.proj-four .proj-four-summary a {
+  text-decoration: none;
+}
+
 .proj-four .proj-four-summary p {
   font-weight: 400;
   font-size: 1.4rem;
@@ -591,6 +604,11 @@ nav {
   font-size: 2rem;
   line-height: 2.3rem;
   margin-bottom: 5px;
+  color: #F5F5F5;
+}
+
+.proj-four .proj-four-summary h4:hover {
+  color: #007CED;
 }
 
 .proj-five {
@@ -632,6 +650,11 @@ nav {
   font-size: 2rem;
   line-height: 2.3rem;
   margin-bottom: 5px;
+  color: #F5F5F5;
+}
+
+.proj-five .proj-five-summary h4:hover {
+  color: #007CED;
 }
 
 .proj-six {
@@ -662,6 +685,10 @@ nav {
   left: 55%;
 }
 
+.proj-six .proj-six-summary a {
+  text-decoration: none;
+}
+
 .proj-six .proj-six-summary p {
   font-weight: 400;
   font-size: 1.4rem;
@@ -673,6 +700,11 @@ nav {
   font-size: 2rem;
   line-height: 2.3rem;
   margin-bottom: 5px;
+  color: #F5F5F5;
+}
+
+.proj-six .proj-six-summary h4:hover {
+  color: #007CED;
 }
 
 .posts {
