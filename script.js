@@ -80,6 +80,9 @@ $(document).ready(function () {
 
         scrollLink.each(function () {
             const sectionOffset = $(this.hash).offset().top;
+            // if (sectionOffset <= scrollBarLocation) {
+            //     $(this).parent().addClass('active');
+            // }
         })
 
     })

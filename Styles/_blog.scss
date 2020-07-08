@@ -1,16 +1,20 @@
 //Styling for Blog section
 
+.blog-posts {
+    padding-top: 5%;
+}
+
 .posts {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .blog-posts h4 {
-    width: 9.5%;
+    width: 5.5%;
     padding-bottom: 5px;
     color: $tertiary-color;
     font-weight: 600;
-    font-size: 2.1rem;
+    font-size: 2.8rem;
     line-height: 2.5rem;
     position: relative;
     border-bottom: 2px solid $secondary-color;
@@ -60,4 +64,21 @@ color: $tertiary-color;
    }
 
 } 
+
+
+//Media Queries
+
+@include tablet{
+    .blog-posts h4 {
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: $quaternary-color;
+        text-transform: uppercase;
+        border-bottom: none;
+        &:after {
+            display: none;
+        }
+    }
+}
 

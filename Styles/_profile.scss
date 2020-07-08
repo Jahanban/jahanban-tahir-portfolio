@@ -3,7 +3,7 @@
 .profile {
     width: 85%;
     display: flex;
-    margin: 10% auto;
+    margin: 0 auto;
     padding-top: 10%;
     justify-content: space-between;
 
@@ -26,7 +26,7 @@
 
         p:nth-child(1) {
             font-weight: 300;
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             line-height: 1.9rem;
         }
 
@@ -37,5 +37,14 @@
             margin-bottom: 5%;
         }
     }
-    
+}
+
+// Media Query
+
+@include tablet {
+
+    .profile img {
+        width: 50%;
+        height: 50%;
+    }
 }

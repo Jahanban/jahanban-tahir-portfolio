@@ -1,2 +1,8 @@
 // Mixins for styling
 
+@mixin tablet {
+    @media (max-width: 1160px) {
+        @content;
+    }
+}
+

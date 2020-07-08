@@ -5,16 +5,17 @@ nav {
     display: flex;
     position: fixed;
     top: 0;
+    left: 0;
     background-color: $primary-color;
     z-index: 100;
+    padding-top: 5px;
+    padding-left: 25px;
 }
 
 // Styling logo
 
 .logo {
     display: flex;
-    // justify-content: center;
-    // align-items: center;
     margin: 0 auto;
 
     h2 {
@@ -52,7 +53,6 @@ nav {
     width: 80%;
     display: flex;
     justify-content: space-around;
-    // align-items: flex-end;
     margin-top: 0;
     margin-left: 23%;
     padding-right: 80px;
@@ -62,7 +62,7 @@ nav {
 
         a {
         text-decoration: none;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 1.4rem;
         line-height: 5rem;
         color:$quinary-color;
@@ -71,10 +71,6 @@ nav {
             color: $tertiary-color;
             cursor: pointer;
         }
-
-        // &:active {
-        //     color: red;
-        // }
     }
 
     }
@@ -86,10 +82,7 @@ nav {
         line-height: 5rem;
         color:$quinary-color;
     }
-    // &:hover {
-    //     color: $tertiary-color;
-    // }
 }
 
-
+// Media Queries
 

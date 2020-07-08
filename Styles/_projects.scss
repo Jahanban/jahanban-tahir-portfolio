@@ -2,16 +2,15 @@
 
 .projects {
     margin-bottom: 200px;
-    // width: 70%
-    // padding: 20%;
+    padding-top: 5%;
 }
 
 .proj-desc h4 {
-    width: 7.5%;
+    width: 10%;
     padding-bottom: 5px;
     color: $tertiary-color;
     font-weight: 600;
-    font-size: 2.1rem;
+    font-size: 2.8rem;
     line-height: 2.5rem;
     position: relative;
     border-bottom: 2px solid $secondary-color;
@@ -201,7 +200,7 @@
     }
 
     .proj-six-summary {
-         width: 40%;
+        width: 40%;
         background-color: $senary-color;
         padding: 5px 10px 5px 100px;
         border: 2px solid $quinary-color;
@@ -234,5 +233,85 @@
             }
         }
     }
+}
+
+//Media Queries
+
+@include tablet{
+    .proj-desc h4 {
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: $quaternary-color;
+        text-transform: uppercase;
+        border-bottom: none;
+        &:after {
+            display: none;
+        }
+    }
+
+    .projects-container-one,
+    .projects-container-two {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        // justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+
+.proj-three {
+    .proj-three-img {
+       left: 0;
+    }
+
+    .proj-three-summary {
+        z-index: 1;
+        left: 31%;
+    }
+}
+
+
+.proj-four {
+    .proj-four-img {
+       left: 0;
+       margin-top: 90%;
+    }
+
+    .proj-four-summary {
+        margin-top: 20%;
+        z-index: 1;
+        left: 31%;
+    }
+}
+
+.proj-five {
+    .proj-five-img {
+       left: 0;
+       margin-top: 0;
+    }
+
+    .proj-five-summary {
+        margin-top: 3%;
+        z-index: 1;
+        left: 31%;
+    }
+}
+
+.proj-six {
+    .proj-six-img {
+       left: 0;
+       margin-top: 0;
+    }
+
+    .proj-six-summary {
+        margin-top: 3%;
+        z-index: 1;
+        left: 31%;
+    }
+}
+
+
+
 }
 
