@@ -311,7 +311,31 @@
     }
 }
 
-
-
 }
 
+
+@include tablet-two {
+    .proj-three {
+        .proj-three-summary {
+            width: 50%;
+        }
+    }
+
+    .proj-four {
+        .proj-four-summary {
+            width: 50%;
+        }
+    }
+
+    .proj-five {
+        .proj-five-summary {
+            width: 50%;
+        }
+    }
+
+    .proj-six {
+        .proj-six-summary {
+            width: 50%;
+        }
+    }
+}

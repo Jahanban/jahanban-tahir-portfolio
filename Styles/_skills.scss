@@ -95,3 +95,19 @@
         }
     }
 }
+
+@include tablet-two {
+
+    .icons {
+        width: 80%;
+
+        li:nth-child(9) {
+        margin-top: 0%;
+        }
+
+        li:nth-child(10) {
+            padding-left: 3%;
+        }
+    }
+
+}

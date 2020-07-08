@@ -433,6 +433,13 @@ nav {
   text-decoration: none;
 }
 
+@media (max-width: 1160px) {
+  .btn-one,
+  .btn-two {
+    margin-left: 10%;
+  }
+}
+
 .skills {
   padding-top: 5%;
 }
@@ -523,6 +530,18 @@ nav {
   }
   .icons .icons li:nth-child(11) {
     margin-left: 22px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .icons {
+    width: 80%;
+  }
+  .icons li:nth-child(9) {
+    margin-top: 0%;
+  }
+  .icons li:nth-child(10) {
+    padding-left: 3%;
   }
 }
 
@@ -814,6 +833,21 @@ nav {
     margin-top: 3%;
     z-index: 1;
     left: 31%;
+  }
+}
+
+@media (max-width: 1060px) {
+  .proj-three .proj-three-summary {
+    width: 50%;
+  }
+  .proj-four .proj-four-summary {
+    width: 50%;
+  }
+  .proj-five .proj-five-summary {
+    width: 50%;
+  }
+  .proj-six .proj-six-summary {
+    width: 50%;
   }
 }
 

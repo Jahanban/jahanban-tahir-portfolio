@@ -6,3 +6,8 @@
     }
 }
 
+@mixin tablet-two {
+    @media (max-width: 1060px) {
+        @content;
+    }
+}
