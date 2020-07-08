@@ -515,41 +515,33 @@ nav {
   left: 0;
 }
 
-.icons {
-  width: 80%;
+.skills .skills-table {
+  margin: 5vh auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 30px;
+}
+
+.skills .skills-table .icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  list-style: none;
-  margin: 0 auto;
-}
-
-.icons li h4 {
-  font-size: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  font-weight: 400;
 }
 
-.icon-fa {
-  font-size: 10rem;
-  margin: 20px 80px;
-}
-
-.icon-two {
-  width: 80px;
-  height: 80px;
-}
-
-.icons li:nth-child(9) {
-  margin-top: 2%;
-}
-
-.icons li:nth-child(11) {
-  margin-left: 22px;
+.skills .skills-table .icon h5 {
+  font-size: 2rem;
+  font-weight: 400rem;
+  line-height: 2.3rem;
 }
 
 @media (max-width: 1160px) {
@@ -564,34 +556,32 @@ nav {
   .skills h4:after {
     display: none;
   }
-  .icons {
-    width: 60%;
-  }
-  .icons .icon-fa {
-    font-size: 4rem;
-    margin: 10px 60px;
-  }
-  .icons .icon-two {
-    width: 40px;
-    height: 40px;
-  }
-  .icons .icons li:nth-child(9) {
-    margin-top: 2%;
-  }
-  .icons .icons li:nth-child(11) {
-    margin-left: 22px;
+}
+
+@media (max-width: 935px) {
+  .skills .skills-table {
+    margin-left: 5%;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
   }
 }
 
-@media (max-width: 1060px) {
-  .icons {
-    width: 80%;
+@media (max-width: 640px) {
+  .skills .skills-table {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
-  .icons li:nth-child(9) {
-    margin-top: 0%;
+}
+
+@media (max-width: 540px) {
+  .skilss h4 {
+    margin: 0 auto;
   }
-  .icons li:nth-child(10) {
-    padding-left: 3%;
+  .skills .skills-table {
+    margin-left: 15%;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 

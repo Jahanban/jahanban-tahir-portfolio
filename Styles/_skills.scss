@@ -25,39 +25,25 @@
     }
 }
 
-.icons {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0 auto;
+.skills .skills-table {
+    margin: 5vh auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 30px;
 
-       li h4 {
-        font-size: 2rem;
+    .icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
-        font-weight: 400;
+
+        h5 {
+            font-size: 2rem;
+            font-weight: 400rem;
+            line-height: 2.3rem;
+        }
     }
 }
-
-.icon-fa {
-    font-size: 10rem; 
-    margin: 20px 80px;
-}
-
-.icon-two {
-    width: 80px;
-    height: 80px;
-}
-
-.icons li:nth-child(9) {
-   margin-top: 2%;
-}
-
-.icons li:nth-child(11) {
-    margin-left: 22px;
-}
-
 
 //Media Queries
 
@@ -73,41 +59,70 @@
             display: none;
         }
     }
-
-    .icons {
-        width: 60%;
-        .icon-fa {
-                font-size: 4rem;
-                margin: 10px 60px;
-            } 
-                
-        .icon-two {
-            width: 40px;
-            height: 40px;
-        }
-
-        .icons li:nth-child(9) {
-        margin-top: 2%;
-        }
-
-        .icons li:nth-child(11) {
-            margin-left: 22px;
-        }
-    }
 }
 
-@include tablet-two {
+@include tablet-three {
 
-    .icons {
-        width: 80%;
-
-        li:nth-child(9) {
-        margin-top: 0%;
-        }
-
-        li:nth-child(10) {
-            padding-left: 3%;
-        }
+    .skills .skills-table {
+    margin-left: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
     }
 
 }
+
+@include tablet-five {
+    .skills .skills-table {
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@include tablet-six {
+    .skilss h4 {
+        margin: 0 auto;
+    }
+    .skills .skills-table {
+        margin-left: 15%;
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+
+
+// .icons {
+//     width: 80%;
+//     display: flex;
+//     justify-content: space-around;
+//     flex-wrap: wrap;
+//     list-style: none;
+//     margin: 0 auto;
+
+//        li h4 {
+//         font-size: 2rem;
+//         text-align: center;
+//         font-weight: 400;
+//     }
+// }
+
+// .icon-fa {
+//     font-size: 10rem; 
+//     margin: 20px 80px;
+// }
+
+// .icon-two {
+//     width: 80px;
+//     height: 80px;
+// }
+
+// .icons li:nth-child(9) {
+//    margin-top: 2%;
+// }
+
+// .icons li:nth-child(11) {
+//     margin-left: 22px;
+// }
+

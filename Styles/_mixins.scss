@@ -11,3 +11,27 @@
         @content;
     }
 }
+
+@mixin tablet-three {
+    @media (max-width: 935px) {
+        @content;
+    }
+}
+
+@mixin tablet-four {
+    @media (max-width: 855px) {
+        @content;
+    }
+}
+
+@mixin tablet-five {
+    @media (max-width: 640px) {
+        @content;
+    }
+}
+
+@mixin tablet-six {
+    @media (max-width: 540px) {
+        @content;
+    }
+}
