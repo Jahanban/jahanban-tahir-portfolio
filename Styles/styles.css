@@ -258,6 +258,19 @@ body {
   border: 2px solid red;
 }
 
+.menu-toggle-btn {
+  position: absolute;
+  right: 0;
+  color: #007CED;
+  height: 9rem;
+  font-size: 2.6rem;
+  line-height: 6rem;
+  margin-right: 35px;
+  margin-top: 2px;
+  cursor: pointer;
+  display: none;
+}
+
 nav {
   width: 100%;
   display: -webkit-box;
@@ -329,6 +342,7 @@ nav {
   font-size: 1.4rem;
   line-height: 5rem;
   color: #606060;
+  text-transform: uppercase;
 }
 
 .nav-links li a:hover {
@@ -341,6 +355,37 @@ nav {
   font-size: 1.4rem;
   line-height: 5rem;
   color: #606060;
+}
+
+@media (max-width: 1060px) {
+  .menu-toggle-btn {
+    display: block;
+  }
+  .nav-links {
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    top: 90px;
+    right: 0;
+    display: none;
+    padding: 20px 40px;
+  }
+  .nav-links::before {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+  }
+  .nav-links a {
+    margin: 10px 0;
+  }
+  .nav-links.active {
+    display: block;
+  }
 }
 
 .profile {

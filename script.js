@@ -87,3 +87,10 @@ $(document).ready(function () {
 
     })
 })
+
+// menu toggle
+
+$(".menu-toggle-btn").click(function () {
+    $(this).toggleClass("fa-times");
+    $(".nav-links").toggleClass("active");
+});
