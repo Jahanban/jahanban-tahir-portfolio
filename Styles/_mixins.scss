@@ -1,10 +1,15 @@
 // Mixins for styling
 
 @mixin view-large-screen {
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 1444px) {
         @content;
     }
+}
 
+@mixin view-large-screen-two {
+    @media screen and (max-width: 1360px) {
+        @content;
+    }
 }
 
 @mixin view {

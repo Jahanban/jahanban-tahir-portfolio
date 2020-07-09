@@ -746,7 +746,7 @@ nav {
   color: #F5F5F5;
 }
 
-.proj-three .proj-three-summary h4:hover, .proj-three .proj-three-summary h4:focus {
+.proj-three .proj-three-summary h4:hover {
   color: #007CED;
 }
 
@@ -893,6 +893,24 @@ nav {
 
 .proj-six .proj-six-summary h4:hover {
   color: #007CED;
+}
+
+@media screen and (max-width: 1444px) {
+  .proj-three-img {
+    right: 19%;
+  }
+  .proj-five-img {
+    right: 19%;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .proj-three-img {
+    right: 10%;
+  }
+  .proj-five-img {
+    right: 10%;
+  }
 }
 
 @media screen and (max-width: 1160px) {

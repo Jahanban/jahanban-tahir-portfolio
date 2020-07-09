@@ -77,8 +77,7 @@
             margin-bottom: 5px;
             color: $tertiary-color;
 
-            &:hover,
-            &:focus {
+            &:hover {
                 color: $quaternary-color;
             }
         }
@@ -90,14 +89,12 @@
 .proj-four {
    display: flex;
    width: 40%;
-//    margin-top: 200px;
  .proj-four-img {
         width: 100px;
         height: 100px;
         border-radius: 50%;
         position: relative;
         z-index: 10;
-        // right: 98%;
     }
 
     .proj-four-summary {
@@ -148,8 +145,6 @@
         border-radius: 50%;
         position: relative;
         z-index: 10;
-        // right: 22%;
-        
     }
 
     .proj-five-summary {
@@ -196,8 +191,6 @@
         border-radius: 50%;
         position: relative;
         z-index: 10;
-        // right: 22%;
-        
     }
 
     .proj-six-summary {
@@ -238,6 +231,28 @@
 
 //Media Queries
 
+@include view-large-screen {
+    
+        .proj-three-img {
+        right:19%;
+        }
+
+        .proj-five-img {
+        right:19%;
+        }
+}
+
+@include view-large-screen-two {
+    
+        .proj-three-img {
+        right:10%;
+        }
+
+        .proj-five-img {
+        right:10%;
+        }
+}
+
 
 @include view{
     .proj-desc h4 {
@@ -257,15 +272,14 @@
         width: 50%;
         margin: 0 auto;
         display: flex;
-        // justify-content: space-evenly;
         flex-direction: column;
     }
 
 
-.proj-three {
-    .proj-three-img {
-       left: 0;
-    }
+    .proj-three {
+        .proj-three-img {
+        left: 0;
+        }
 
     .proj-three-summary {
         z-index: 1;
@@ -287,11 +301,11 @@
     }
 }
 
-.proj-five {
-    .proj-five-img {
-       left: 0;
-       margin-top: 0;
-    }
+    .proj-five {
+        .proj-five-img {
+        left: 0;
+        margin-top: 0;
+        }
 
     .proj-five-summary {
         margin-top: 3%;
@@ -353,7 +367,7 @@
         }
     }
 
-     .projects-container-one,
+    .projects-container-one,
     .projects-container-two {
         width: 100%;
     }
@@ -372,7 +386,7 @@
 
 @include view-four {
 
-     .proj-three .proj-three-summary,
+    .proj-three .proj-three-summary,
     .proj-four .proj-four-summary,
     .proj-five .proj-five-summary,
     .proj-six .proj-six-summary {
@@ -428,6 +442,7 @@
 }
 
 @include view-eight {
+    
 .proj-desc h4 {
     margin-left: 30%;
 }
@@ -466,4 +481,3 @@
         margin-bottom: 30%;
     }
 }
-
