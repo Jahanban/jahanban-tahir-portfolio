@@ -43,7 +43,13 @@
 }
 
 @mixin view-eight {
-    @media (max-width: 340px) {
+    @media (max-width: 400px) {
+        @content;
+    }
+}
+
+@mixin view-nine {
+    @media (max-width: 360px) {
         @content;
     }
 }

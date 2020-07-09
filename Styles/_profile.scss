@@ -52,17 +52,16 @@
     }
 }
 
+@include view-three {
+    .profile {
+        margin-top: 5%;
+    }
+}
+
 @include view-five {
 
     .profile {
          flex-direction: column;
-
-        //  img {
-        // width: 150px;
-        // height: 150px;
-        // margin-top: 10%;
-        //  }
-
     }
 
    
@@ -88,4 +87,10 @@
         font-size: 2.5rem;
     }
     
+}
+
+@include view-eight {
+    .profile img {
+        margin-top: 30%;
+    }
 }

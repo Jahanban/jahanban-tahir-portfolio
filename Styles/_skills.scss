@@ -78,9 +78,9 @@
 }
 
 @include view-six {
-    .skilss h4 {
-        margin: 0 auto;
-    }
+    // .skills h4 {
+    //     margin: 0 auto;
+    // }
     .skills .skills-table {
     grid-template-columns: repeat(2, 1fr);
     }
@@ -90,6 +90,7 @@
 
     .skills h4 {
         margin-left: 38%;
+        margin-top: 18%;
     }
     .icon img {
         width: 70px;

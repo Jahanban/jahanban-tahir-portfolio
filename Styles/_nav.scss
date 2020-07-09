@@ -22,6 +22,7 @@ nav {
     top: 0;
     left: 0;
     background-color: $primary-color;
+    border: 2px solid #606060;
     z-index: 100;
     padding-top: 5px;
     padding-left: 25px;
@@ -147,5 +148,11 @@ nav {
 @include view-seven {
     .nav-links {
         width: 55%;
+    }
+}
+
+@include view-eight {
+     .nav-links {
+        width: 65%;
     }
 }

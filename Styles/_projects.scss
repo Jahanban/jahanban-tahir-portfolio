@@ -322,6 +322,7 @@
     }
 
     .proj-four {
+        margin-top: 10%;
         .proj-four-summary {
             width: 50%;
         }
@@ -339,3 +340,124 @@
         }
     }
 }
+
+@include view-three {
+    .proj-desc {
+        margin-top: 20%;
+
+        h4 {
+            margin-left: 43%;
+            margin-bottom: 10%;
+        }
+    }
+
+     .projects-container-one,
+    .projects-container-two {
+        width: 100%;
+    }
+    .proj-three .proj-three-summary,
+    .proj-four .proj-four-summary,
+    .proj-five .proj-five-summary,
+    .proj-six .proj-six-summary {
+        left: 10%;
+        width: 80%;
+    }
+
+   .proj-four .proj-four-img {
+        margin-top: 45%;
+    }
+}
+
+@include view-four {
+
+     .proj-three .proj-three-summary,
+    .proj-four .proj-four-summary,
+    .proj-five .proj-five-summary,
+    .proj-six .proj-six-summary {
+        padding-top: 2%;
+    }
+
+        .proj-three {
+        margin-bottom: 8%;
+    }
+
+     .proj-four {
+        margin-bottom: 2%;
+    }
+
+     .proj-five {
+        margin-bottom: 2%;
+    }
+
+}
+
+@include view-five {
+    .proj-three {
+        margin-bottom: 20%;
+    }
+}
+    
+@include view-seven {
+
+    .proj-three {
+        margin-bottom: 40%;
+    }
+
+     .proj-four {
+        margin-bottom: 20%;
+    }
+
+     .proj-five {
+        margin-bottom: 20%;
+    }
+
+     .proj-six {
+        margin-bottom: 20%;
+    }
+
+    .proj-three .proj-three-summary,
+    .proj-four .proj-four-summary,
+    .proj-five .proj-five-summary,
+    .proj-six .proj-six-summary {
+        padding-top: 21%;
+        padding-left: 10px;
+    }
+
+}
+
+@include view-eight {
+.proj-three {
+        margin-bottom: 50%;
+    }
+
+     .proj-four {
+        margin-bottom: 20%;
+    }
+
+     .proj-five {
+        margin-bottom: 20%;
+    }
+
+     .proj-six {
+        margin-bottom: 20%;
+    }
+}
+
+@include view-nine {
+    .proj-three {
+        margin-bottom: 70%;
+    }
+
+     .proj-four {
+        margin-bottom: 30%;
+    }
+
+     .proj-five {
+        margin-bottom: 30%;
+    }
+
+     .proj-six {
+        margin-bottom: 30%;
+    }
+}
+
