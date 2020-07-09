@@ -143,3 +143,9 @@ nav {
         display: block;
     }
 }
+
+@include view-seven {
+    .nav-links {
+        width: 55%;
+    }
+}

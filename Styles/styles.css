@@ -258,6 +258,13 @@ body {
   border: 2px solid red;
 }
 
+@media (max-width: 580px) {
+  .wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
 .menu-toggle-btn {
   position: absolute;
   right: 0;
@@ -390,6 +397,12 @@ nav {
   }
   .nav-links.active {
     display: block;
+  }
+}
+
+@media (max-width: 460px) {
+  .nav-links {
+    width: 55%;
   }
 }
 
@@ -584,7 +597,7 @@ nav {
 
 @media (max-width: 1160px) {
   .skills h4 {
-    margin: 0 auto;
+    margin-left: 43%;
     padding-top: 5%;
     padding-bottom: 5%;
     color: #007CED;
@@ -598,7 +611,7 @@ nav {
 
 @media (max-width: 935px) {
   .skills .skills-table {
-    margin-left: 5%;
+    margin-left: 0px;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
@@ -617,9 +630,21 @@ nav {
     margin: 0 auto;
   }
   .skills .skills-table {
-    margin-left: 15%;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 460px) {
+  .skills h4 {
+    margin-left: 38%;
+  }
+  .icon img {
+    width: 70px;
+    height: 70px;
+  }
+  .icon h5 {
+    font-size: 1.5rem;
   }
 }
 

@@ -49,7 +49,7 @@
 
 @include view{
     .skills h4 {
-        margin: 0 auto;
+        margin-left: 43%;
         padding-top: 5%;
         padding-bottom: 5%;
         color: $quaternary-color;
@@ -64,7 +64,7 @@
 @include view-three {
 
     .skills .skills-table {
-    margin-left: 5%;
+    margin-left: 0px;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
     }
@@ -82,9 +82,25 @@
         margin: 0 auto;
     }
     .skills .skills-table {
-        margin-left: 15%;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     }
+}
+
+@include view-seven {
+
+    .skills h4 {
+        margin-left: 38%;
+    }
+    .icon img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon h5 {
+        font-size: 1.5rem;
+        // font-weight: 300;
+    }
+    
 }
 
 
