@@ -1135,6 +1135,9 @@ nav {
 }
 
 @media (max-width: 1160px) {
+  .posts {
+    width: 100%;
+  }
   .blog-posts h4 {
     margin: 0 auto;
     padding-top: 5%;
@@ -1145,6 +1148,9 @@ nav {
   }
   .blog-posts h4:after {
     display: none;
+  }
+  .medium-widget-article__grid .medium-widget-article__image img {
+    width: 70px;
   }
 }
 
