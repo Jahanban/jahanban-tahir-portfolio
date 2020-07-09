@@ -89,3 +89,9 @@ color: $tertiary-color;
 }
 }
 
+@include view-nine {
+    .blog-posts h4 {
+        margin-left: 37%;
+    }
+}
+

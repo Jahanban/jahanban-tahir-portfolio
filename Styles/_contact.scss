@@ -70,7 +70,6 @@
     .contact h4 {
         margin: 0 auto;
         padding-top: 5%;
-        // padding-bottom: 5%;
         color: $quaternary-color;
         text-transform: uppercase;
         border-bottom: none;
@@ -82,4 +81,29 @@
     .contact form {
         margin-left: 28%;
 }
+}
+
+@include view-four {
+    .contact h4 {
+        margin-left: 41%;
+        margin-bottom: 5%;
+    }
+    .contact form {
+        margin: 0 auto;
+    }
+    .contact form input,
+.contact form textarea {
+    width: 100%;
+}
+
+.contact form input[type="submit"]{
+    width: 40%;
+    margin-left: 31%;
+}
+}
+
+@include view-nine {
+    .contact h4 {
+        margin-left: 30%;
+    }
 }

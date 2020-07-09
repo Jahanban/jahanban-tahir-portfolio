@@ -1,7 +1,14 @@
 // Mixins for styling
 
+@mixin view-large-screen {
+    @media screen and (max-width: 1440px) {
+        @content;
+    }
+
+}
+
 @mixin view {
-    @media (max-width: 1160px) {
+    @media screen and (max-width: 1160px) {
         @content;
     }
 }
@@ -13,43 +20,43 @@
 }
 
 @mixin view-three {
-    @media (max-width: 935px) {
+    @media screen and (max-width: 935px) {
         @content;
     }
 }
 
 @mixin view-four {
-    @media (max-width: 855px) {
+    @media screen and (max-width: 855px) {
         @content;
     }
 }
 
 @mixin view-five {
-    @media (max-width: 640px) {
+    @media screen and (max-width: 640px) {
         @content;
     }
 }
 
 @mixin view-six {
-    @media (max-width: 580px) {
+    @media screen and (max-width: 580px) {
         @content;
     }
 }
 
 @mixin view-seven {
-    @media (max-width: 460px) {
+    @media screen and (max-width: 460px) {
         @content;
     }
 }
 
 @mixin view-eight {
-    @media (max-width: 400px) {
+    @media screen and (max-width: 400px) {
         @content;
     }
 }
 
 @mixin view-nine {
-    @media (max-width: 360px) {
+    @media screen and (max-width: 360px) {
         @content;
     }
 }
