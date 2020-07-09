@@ -102,8 +102,14 @@
 }
 }
 
+@include view-eight {
+    .contact h4 {
+        margin-left: 32%;
+    }
+}
+
 @include view-nine {
     .contact h4 {
-        margin-left: 30%;
+       margin-left: 28%;
     }
 }

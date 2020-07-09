@@ -229,6 +229,15 @@
     }
 }
 
+.git-icon {
+    font-size: 2.3rem;
+    padding: 5px;
+    color: $quaternary-color;
+    &:hover {
+        color: $tertiary-color;
+    }
+}
+
 //Media Queries
 
 @include view-large-screen {
@@ -250,6 +259,17 @@
 
         .proj-five-img {
         right:10%;
+        }
+}
+
+@include view-laptop {
+    
+        .proj-three-img {
+        right:7%;
+        }
+
+        .proj-five-img {
+        right:7%;
         }
 }
 
@@ -465,6 +485,9 @@
 }
 
 @include view-nine {
+    .proj-desc h4 {
+    margin-left: 28%;
+    }
     .proj-three {
         margin-bottom: 70%;
     }
