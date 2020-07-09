@@ -43,9 +43,20 @@
 
 // Media Queries
 
-@include tablet {
+@include view {
     .btn-one,
     .btn-two {
         margin-left: 10%;
+    }
+}
+
+@include view-four {
+
+    .btn-one {
+        margin-left: 0;
+    }
+     
+    .btn-two {
+        display: none;
     }
 }

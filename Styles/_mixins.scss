@@ -1,37 +1,49 @@
 // Mixins for styling
 
-@mixin tablet {
+@mixin view {
     @media (max-width: 1160px) {
         @content;
     }
 }
 
-@mixin tablet-two {
+@mixin view-two {
     @media (max-width: 1060px) {
         @content;
     }
 }
 
-@mixin tablet-three {
+@mixin view-three {
     @media (max-width: 935px) {
         @content;
     }
 }
 
-@mixin tablet-four {
+@mixin view-four {
     @media (max-width: 855px) {
         @content;
     }
 }
 
-@mixin tablet-five {
+@mixin view-five {
     @media (max-width: 640px) {
         @content;
     }
 }
 
-@mixin tablet-six {
-    @media (max-width: 540px) {
+@mixin view-six {
+    @media (max-width: 580px) {
+        @content;
+    }
+}
+
+@mixin view-seven {
+    @media (max-width: 460px) {
+        @content;
+    }
+}
+
+@mixin view-eight {
+    @media (max-width: 340px) {
         @content;
     }
 }

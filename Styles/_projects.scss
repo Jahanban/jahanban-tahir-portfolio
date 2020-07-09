@@ -237,7 +237,7 @@
 
 //Media Queries
 
-@include tablet{
+@include view{
     .proj-desc h4 {
         margin: 0 auto;
         padding-top: 5%;
@@ -314,7 +314,7 @@
 }
 
 
-@include tablet-two {
+@include view-two {
     .proj-three {
         .proj-three-summary {
             width: 50%;

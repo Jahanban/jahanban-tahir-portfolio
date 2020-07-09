@@ -8,7 +8,9 @@
     justify-content: space-between;
 
     img {
-        width: 100%;
+        // width: 100%;
+        width: 280px;
+        height: 316px;
         border-radius: 50%;
         border: 10px solid $secondary-color;
         box-shadow: 5px 10px 10px 1px $septenary-color;
@@ -41,10 +43,49 @@
 
 // Media Query
 
-@include tablet {
+@include view {
 
     .profile img {
-        width: 50%;
-        height: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
     }
+}
+
+@include view-five {
+
+    .profile {
+         flex-direction: column;
+
+        //  img {
+        // width: 150px;
+        // height: 150px;
+        // margin-top: 10%;
+        //  }
+
+    }
+
+   
+}
+
+@include view-six {
+    .profile {
+        width: 100%;
+        .profile-summary {
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+
+        img {
+            margin-top: 20%;
+        }
+    }
+}
+
+@include view-seven {
+     .profile .profile-summary h1 {
+        font-size: 2.5rem;
+    }
+    
 }

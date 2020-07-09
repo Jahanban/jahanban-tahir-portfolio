@@ -102,7 +102,7 @@ nav {
 
 // Media Queries
 
-@include tablet-two {
+@include view-two {
     .menu-toggle-btn {
         display: block;
     }

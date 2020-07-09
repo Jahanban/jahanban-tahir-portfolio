@@ -51,7 +51,7 @@ footer {
 
 // Media Queries
 
-@include tablet {
+@include view {
     .social ul {
         li a {
             padding: 6px;

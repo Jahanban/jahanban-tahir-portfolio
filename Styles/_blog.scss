@@ -68,7 +68,7 @@ color: $tertiary-color;
 
 //Media Queries
 
-@include tablet{
+@include view{
     .blog-posts h4 {
         margin: 0 auto;
         padding-top: 5%;
