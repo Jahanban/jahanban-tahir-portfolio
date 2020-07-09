@@ -78,9 +78,6 @@
 }
 
 @include view-six {
-    // .skills h4 {
-    //     margin: 0 auto;
-    // }
     .skills .skills-table {
     grid-template-columns: repeat(2, 1fr);
     }
@@ -99,7 +96,6 @@
 
     .icon h5 {
         font-size: 1.5rem;
-        // font-weight: 300;
     }
     
 }

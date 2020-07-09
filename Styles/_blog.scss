@@ -44,17 +44,17 @@
 }
 
 .medium-widget-article__description {
-    color: $tertiary-color;
-    font-size: 1.4rem;
-    line-height: 2.5rem;
-    font-weight: 400;
-}
+        color: $tertiary-color;
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        font-weight: 400;
+    }
 
    .medium-widget-article__date {
-color: $tertiary-color;
-    font-size: 1.4rem;
-    line-height: 2.3rem;
-    font-weight: 300;
+        color: $tertiary-color;
+        font-size: 1.4rem;
+        line-height: 2.3rem;
+        font-weight: 300;
     }
 
     
@@ -85,8 +85,8 @@ color: $tertiary-color;
     }
 
    .medium-widget-article__grid .medium-widget-article__image img {
-    width: 70px;
-}
+        width: 70px;
+    }
 }
 
 @include view-eight {
@@ -94,10 +94,3 @@ color: $tertiary-color;
         margin-left: 37%;
     }
 }
-
-// @include view-nine {
-//     .blog-posts h4 {
-//         margin-left: 37%;
-//     }
-// }
-
