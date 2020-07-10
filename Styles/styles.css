@@ -828,6 +828,10 @@ nav {
   left: 12%;
 }
 
+.proj-five .proj-five-summary a {
+  text-decoration: none;
+}
+
 .proj-five .proj-five-summary p {
   font-weight: 400;
   font-size: 1.4rem;

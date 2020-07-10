@@ -156,6 +156,9 @@
         z-index: 1;
         left: 12%;
 
+        & a {
+            text-decoration: none;
+        }
 
         & p {
             font-weight: 400;
@@ -169,6 +172,8 @@
             line-height: 2.3rem;
             margin-bottom: 5px;
            color: $tertiary-color;
+          
+           
 
             &:hover {
                 color: $quaternary-color;
