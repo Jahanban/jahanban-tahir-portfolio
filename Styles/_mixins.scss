@@ -72,8 +72,6 @@
     }
 }
 
-
-
 @mixin view-nine {
     @media screen and (max-width: 375px) {
         @content;
