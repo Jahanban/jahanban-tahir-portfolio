@@ -33,13 +33,13 @@
 .medium-widget{
 
     .medium-widget-article__title {
-    color: $tertiary-color;
+    color: $quaternary-color;
     font-size: 2rem;
     line-height: 2.3rem;
     font-weight: 600;
 
     &:hover {
-        color: $quaternary-color;
+        color: $tertiary-color;
     }
 }
 

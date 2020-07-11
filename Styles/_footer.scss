@@ -5,7 +5,7 @@ footer {
     margin-bottom: 0;
     margin-top: 100px;
     padding-bottom: 10px;
-     background-color: $senary-color;
+    background-color: $senary-color;
 }
 
 .social {
@@ -28,10 +28,10 @@ footer {
         padding: 2px;
         margin-bottom: 0;
         text-decoration: none;
-        color: $tertiary-color;
+        color: $quaternary-color;
 
         &:hover {
-            color: $quaternary-color;
+            color: $tertiary-color;
             cursor: pointer;
         }
     }
