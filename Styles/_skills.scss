@@ -50,6 +50,7 @@
 @include view{
     .skills h4 {
         margin-left: 43%;
+        margin: 0 auto;
         padding-top: 5%;
         padding-bottom: 5%;
         color: $quaternary-color;
@@ -60,6 +61,7 @@
         }
     }
 }
+
 
 @include view-three {
 

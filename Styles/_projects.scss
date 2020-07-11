@@ -30,10 +30,9 @@
 .projects-container-one {
    width: 80%;
    margin: 0 auto;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-// align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 
@@ -124,12 +123,64 @@ justify-content: space-evenly;
 }
 
 @include view {
+    .proj-desc h4 {
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: $quaternary-color;
+        text-transform: uppercase;
+        border-bottom: none;
+        &:after {
+            display: none;
+        }
+    }
+    
+
+    .projects-container-one {
+        flex-direction: column;
+    }
     .proj-three,
     .proj-four,
     .proj-five,
     .proj-six {
-    .proj-summary {
-            width: 90%;
-        }
+        width: 100%;
+        padding-left: 20%;
+    }
+}
+
+@include view-three {
+    .proj-desc h4 {
+        margin-right: 48%;
+    }
+}
+
+@include view-five {
+    .proj-desc h4 {
+        margin-right: 50%;
+    }
+}
+
+@include view-six {
+    .proj-desc h4 {
+        margin-right: 53%;
+    }
+}
+
+@include view-nine {
+    .proj-desc h4 {
+        margin-right: 62%;
+    }
+
+    .projects-container-one {
+        flex-direction: column;
+        width: 100%;
+    }
+    .proj-three,
+    .proj-four,
+    .proj-five,
+    .proj-six {
+        width: 100%;
+        padding-left: 0%;
+        margin-left: 8%;
     }
 }
