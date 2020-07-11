@@ -18,6 +18,12 @@
     }
 }
 
+@mixin view-laptop-two {
+    @media screen and (max-width: 1214px) {
+        @content;
+    }
+}
+
 @mixin view {
     @media screen and (max-width: 1160px) {
         @content;

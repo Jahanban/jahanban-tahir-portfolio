@@ -667,7 +667,7 @@ nav {
 
 .projects {
   width: 100%;
-  margin-bottom: 200px;
+  margin-bottom: 5%;
   padding-top: 5%;
 }
 
@@ -754,18 +754,58 @@ nav {
 .proj-four .proj-summary h4,
 .proj-five .proj-summary h4,
 .proj-six .proj-summary h4 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2rem;
   line-height: 2.3rem;
   margin-bottom: 5px;
   color: #F5F5F5;
 }
 
-.proj-three .proj-summary h4:hover,
-.proj-four .proj-summary h4:hover,
-.proj-five .proj-summary h4:hover,
-.proj-six .proj-summary h4:hover {
+.git-icon {
+  font-size: 2.3rem;
+  padding: 5px;
   color: #007CED;
+}
+
+.git-icon:hover {
+  color: #F5F5F5;
+}
+
+.link-icon {
+  font-size: 1.8rem;
+  padding: 5px;
+  color: #007CED;
+}
+
+.link-icon:hover {
+  color: #F5F5F5;
+}
+
+@media screen and (max-width: 1280px) {
+  .proj-three .proj-summary,
+  .proj-four .proj-summary,
+  .proj-five .proj-summary,
+  .proj-six .proj-summary {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1214px) {
+  .proj-three .proj-summary,
+  .proj-four .proj-summary,
+  .proj-five .proj-summary,
+  .proj-six .proj-summary {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .proj-three .proj-summary,
+  .proj-four .proj-summary,
+  .proj-five .proj-summary,
+  .proj-six .proj-summary {
+    width: 90%;
+  }
 }
 
 .blog-posts {
