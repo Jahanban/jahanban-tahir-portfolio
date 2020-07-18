@@ -349,7 +349,7 @@ nav {
   font-weight: 600;
   font-size: 1.4rem;
   line-height: 5rem;
-  color: #606060;
+  color: #ADADAD;
   text-transform: uppercase;
 }
 
@@ -362,7 +362,7 @@ nav {
   padding: 5px;
   font-size: 1.4rem;
   line-height: 5rem;
-  color: #606060;
+  color: #ADADAD;
 }
 
 @media (max-width: 1060px) {
@@ -730,7 +730,7 @@ nav {
   width: 80%;
   background-color: #282828;
   padding: 10px;
-  border: 2px solid #606060;
+  border: 2px solid #ADADAD;
   border-radius: 10px;
   margin-top: 30px;
 }
@@ -995,7 +995,7 @@ nav {
   margin-bottom: 20px;
   height: 50px;
   background-color: #222222;
-  border: 2px solid #606060;
+  border: 2px solid #ADADAD;
   border-radius: 5px;
   padding: 4px 10px;
   color: #F5F5F5;
@@ -1065,7 +1065,7 @@ nav {
 }
 
 footer {
-  border-top: 2px solid #606060;
+  border-top: 2px solid #ADADAD;
   margin-bottom: 0;
   margin-top: 100px;
   padding-bottom: 10px;
